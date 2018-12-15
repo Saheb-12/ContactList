@@ -10,3 +10,9 @@ h1{
 	font-weight: 200;
 	color: rgb(5, 160, 85);
 }
+
+.ma1{
+	color: rgb(5, 80, 185);
+	font-size: 1.5em;
+	cursor: pointer;
+}

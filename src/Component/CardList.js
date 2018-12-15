@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-const CardList = ({robots}) => {
+const CardList = ({robots, onRouteChange}) => {
 	return (
 		<div>
 			{
@@ -11,7 +11,8 @@ const CardList = ({robots}) => {
 							key={i} 
 							id={id} 
 							name={name} 
-							email={email} 
+							email={email}
+							onRouteChange = {onRouteChange} 
 						/>
 					);
 				})
